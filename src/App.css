@@ -1,0 +1,73 @@
+/*
+
+#1EB4F5
+#0B0E12
+#1C8CBC
+#374B57
+#FAFAFA
+#ABAFB3
+*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Open Sans Condensed';
+  padding: 20px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j67isk');
+  src:  url('fonts/icomoon.eot?j67isk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j67isk') format('truetype'),
+    url('fonts/icomoon.woff?j67isk') format('woff'),
+    url('fonts/icomoon.svg?j67isk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+
